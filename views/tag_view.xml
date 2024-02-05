@@ -1,0 +1,11 @@
+<record id="view_tag_tree" model="ir.ui.view">
+    <field name="name">todo.tag.tree</field>
+    <field name="model">todo.tag</field>
+    <field name="type">tree</field>
+    <field name="arch" type="xml">
+        <tree>
+            <field name="name" string="Tag Name"/>
+            <!-- Add other fields as needed -->
+        </tree>
+    </field>
+</record>
